@@ -1,0 +1,10 @@
+body{
+    background-color: darkgray;
+}
+
+.navbar {
+    background-image: linear-gradient(to left,grey,black);
+  }
+  .navbar-nav .nav-link {
+    font-weight: bold;
+  }
