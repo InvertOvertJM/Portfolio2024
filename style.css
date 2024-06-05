@@ -1,5 +1,6 @@
 body{
     background-color: darkgray;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .navbar {
@@ -7,4 +8,32 @@ body{
   }
   .navbar-nav .nav-link {
     font-weight: bold;
+  }
+
+  .nav-link:hover{
+    color:white;
+  }
+
+  .header-image {
+    position: relative;
+    color: white;
+    text-align: center;
+  }
+  .header-image img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 900%;
+    -webkit-text-stroke: #121212;
+    -webkit-text-stroke-width: 1px;
+  }
+
+  .jumbotron{
+    background-image:url("/images/PlaceholderLC.png");
   }
