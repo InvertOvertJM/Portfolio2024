@@ -1,30 +1,30 @@
 body{
     background-color: darkgray;
     font-family: "Lucida Console", "Courier New", monospace;
-}
+  }
 
 .navbar {
     background-image: linear-gradient(to left,grey,black);
   }
-  .navbar-nav .nav-link {
+.navbar-nav .nav-link {
     font-weight: bold;
   }
 
-  .nav-link:hover{
+.nav-link:hover{
     color:white;
   }
 
-  .header-image {
+.header-image {
     position: relative;
     color: white;
     text-align: center;
   }
-  .header-image img {
+.header-image img {
     width: 100%;
     height: 500px;
   }
 
-  .header-text {
+.header-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,6 +34,52 @@ body{
     -webkit-text-stroke-width: 1px;
   }
 
-  .jumbotron{
+.jumbotron{
     background-image:url("/images/PlaceholderLC.png");
+  }
+
+.carousel-item {
+    height: 600px;
+  }
+
+.carousel-item img {
+  width: 100%;                                          
+  height: 100%;
+  object-fit: contain;
+  }
+
+.bg-white-t{
+    background-color: rgba(255, 255, 255, 0.8);
+    
+  }
+
+.bg-white-t::before{
+    content: "";
+  }
+
+.bg-image {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+footer {
+    background-color: #222;
+    color: #aaa;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+.depthText{
+    font-size: 25px;
+  }
+
+.about-image{
+    width: 100%;                                          
+    height: 600px;
+    object-fit: contain;
   }
